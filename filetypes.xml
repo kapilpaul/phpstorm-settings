@@ -1,0 +1,12 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping ext="kt" type="JavaFX" />
+      <mapping pattern="error_log" type="PLAIN_TEXT" />
+      <mapping pattern="default" type="PLAIN_TEXT" />
+      <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping ext="suspected" type="PLAIN_TEXT" />
+      <mapping ext="info" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

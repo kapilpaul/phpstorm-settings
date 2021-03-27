@@ -1,0 +1,28 @@
+<templateSet group="user">
+  <template name="laraform" value="{!! Form::open(['method' =&gt; 'POST', 'action' =&gt; '']) !!}&#10;&#10;&#10;    {!! Form::email('email', null, ['class'=&gt;'form-control', 'placeholder' =&gt; 'example@example.com'])&#10;     !!}&#10;    &lt;span class=&quot;glyphicon glyphicon-lock form-control-feedback&quot;&gt;&lt;/span&gt;&#10;    @if ($errors-&gt;has('email'))&#10;        &lt;span class=&quot;help-block&quot;&gt;&#10;            &lt;p class=&quot;text-red&quot;&gt;{{ $errors-&gt;first('email') }}&lt;/p&gt;&#10;        &lt;/span&gt;&#10;    @endif&#10;&#10;&#10;&#10;    {!! Form::password('password', ['class'=&gt;'form-control', 'placeholder' =&gt; 'Password'])&#10;     !!}&#10;    &lt;span class=&quot;glyphicon glyphicon-lock form-control-feedback&quot;&gt;&lt;/span&gt;&#10;    @if ($errors-&gt;has('password'))&#10;        &lt;span class=&quot;help-block&quot;&gt;&#10;            &lt;p class=&quot;text-red&quot;&gt;{{ $errors-&gt;first('password') }}&lt;/p&gt;&#10;        &lt;/span&gt;&#10;    @endif&#10;&#10;&#10;&#10;    {!! Form::submit('Sign In', ['class'=&gt;'btn btn-primary btn-block btn-flat']) !!}&#10;&#10;{!! Form::close() !!}&#10;" description="Laravel form collective" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="trycatch" value="try{&#10;&#10;}catch(PDOException $e){&#10;    return redirect()-&gt;back()-&gt;with(['error' =&gt; &quot;&quot;]);&#10;}catch(QueryException $e){&#10;    return redirect()-&gt;back()-&gt;with(['error' =&gt; &quot;&quot;]);&#10;} catch (TokenMismatchException $e){&#10;    return redirect('/');&#10;}  catch (MethodNotAllowedHttpException $e){&#10;    return redirect('/');&#10;}" description="try catch with all exceptions" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="usenamespace" value="use Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException;&#10;use Illuminate\Database\QueryException;&#10;use PDOException;&#10;use Illuminate\Session\TokenMismatchException;" description="name spaces of try carch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="php/" value="&lt;?php &#10;&#10;?&gt;" description="php tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pre/" value="echo &lt;pre&gt;;&#10;print_r(  );&#10;echo &lt;/pre&gt;;" description="pre tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

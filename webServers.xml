@@ -1,0 +1,38 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b84708e7-4cb6-4ce6-838b-02c7195580e9" name="Chatleads" url="https://139.59.2.81">
+        <fileTransfer host="139.59.2.81" port="22" privateKey="C:\Users\SIMON\.ssh\id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="93e530e1-459c-4410-aa20-2c202a167815" name="Pickaboo" url="http://128.199.161.245">
+        <fileTransfer host="128.199.161.245" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9ea225eb-0130-4310-9a28-e37013ad1abe" name="Scrapping Dashboard" url="http://159.65.0.231">
+        <fileTransfer host="159.65.0.231" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="27915605-9021-4075-a512-058d78601aa0" name="BKBT" url="http://128.199.83.135">
+        <fileTransfer host="128.199.83.135" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
