@@ -1,5 +1,6 @@
 <code_scheme name="Project" version="173">
   <JSCodeStyleSettings version="0">
+    <option name="ALIGN_VAR_STATEMENTS" value="1" />
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
     <option name="SPACE_AFTER_UNARY_NOT" value="true" />
   </JSCodeStyleSettings>
