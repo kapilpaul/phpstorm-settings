@@ -33,6 +33,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="b5a450a3-dc3f-4273-9cf5-79dcd19fd1e7" name="kapil" url="http://128.199.164.79">
+        <fileTransfer host="128.199.164.79" port="22" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
