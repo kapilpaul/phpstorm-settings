@@ -6,8 +6,8 @@
     <option name="USE_LIGATURES" value="true" />
   </component>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="" />
-    <option name="SOFT_WRAP_FILE_MASKS" value="*.*" />
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.log" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
   </component>
 </application>
