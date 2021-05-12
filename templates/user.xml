@@ -30,4 +30,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="esce/" value="&lt;?php esc_html_e( '', 'daniel-kern' ); ?&gt;" description="esc_html_e" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
