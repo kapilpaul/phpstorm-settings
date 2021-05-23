@@ -25,7 +25,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="sl-d" value="/* stylelint-disable selector-max-specificity */" description="style lint disable" toReformat="false" toShortenFQNames="true">
+  <template name="sl-d" value="/* stylelint-disable selector-max-specificity, declaration-no-important */" description="style lint disable" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
