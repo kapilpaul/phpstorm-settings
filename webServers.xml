@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="90e4088f-b7cb-4b1b-857f-2962dd17cee3" name="daniel-kern" url="http://daniel-kern.dev6.rt.gw">
+        <fileTransfer host="daniel-kern.dev6.rt.gw" port="22" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="b84708e7-4cb6-4ce6-838b-02c7195580e9" name="Chatleads" url="https://139.59.2.81">
         <fileTransfer host="139.59.2.81" port="22" privateKey="C:\Users\SIMON\.ssh\id_rsa" accessType="SFTP" keyPair="true">
           <advancedOptions>
