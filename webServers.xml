@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="90e4088f-b7cb-4b1b-857f-2962dd17cee3" name="daniel-kern" url="http://daniel-kern.dev6.rt.gw">
-        <fileTransfer host="daniel-kern.dev6.rt.gw" port="22" accessType="SFTP" authAgent="true">
+        <fileTransfer host="daniel-kern.dev6.rt.gw" port="22" rootFolder="/opt/easyengine/sites/daniel-kern.dev6.rt.gw/app/htdocs/current" accessType="SFTP" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
